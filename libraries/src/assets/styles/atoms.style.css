@@ -1,0 +1,25 @@
+.icon_size_ {
+  &.primary {
+    color: '#3366FF';
+  }
+
+  &.success {
+    color: '#98D354';
+  }
+
+  &.warning {
+    color: '#FFCC00';
+  }
+
+  &.danger {
+    color: '#FF4D35';
+  }
+
+  &.info {
+    color: '#3FD9FF';
+  }
+
+  &.control {
+    color: '#ebeaea';
+  }
+}

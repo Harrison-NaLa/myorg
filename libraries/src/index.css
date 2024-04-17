@@ -18,6 +18,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -46,9 +47,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -59,10 +62,43 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+.icon_color_primary {
+  color: '#3366FF';
+  fill: '#3366FF';
+}
+
+.icon_color_success {
+  color: '#98D354';
+  fill: '#98D354';
+}
+
+.icon_color_warning {
+  color: '#FFCC00';
+  fill: '#FFCC00';
+}
+
+.icon_color_danger {
+  color: '#FF4D35';
+  fill: '#FF4D35';
+}
+
+.icon_color_info {
+  color: '#3FD9FF';
+  fill: '#3FD9FF';
+}
+
+.icon_color_control {
+  color: '#ebeaea';
+  fill: '#ebeaea';
 }
