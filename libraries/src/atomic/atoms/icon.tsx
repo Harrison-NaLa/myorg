@@ -5,6 +5,7 @@ import {
   LibSizeEnum,
   LibStatusEnum,
 } from "../atoms.utils";
+import '../../assets/styles/atoms.style.css';
 
 export const Icon = ({
   status = LibStatusEnum.control,

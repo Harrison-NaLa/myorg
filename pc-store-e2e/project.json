@@ -1,0 +1,8 @@
+{
+  "name": "pc-store-e2e",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "pc-store-e2e/src",
+  "implicitDependencies": ["pc-store"],
+  "// targets": "to see all targets run: nx show project pc-store-e2e --web",
+  "targets": {}
+}
