@@ -1,0 +1,29 @@
+@import url('./variables.css');
+
+.icon_color_primary {
+  fill: var(--color-primary-700);
+}
+
+.icon_color_success {
+  fill: var(--color-success-700);
+}
+
+.icon_color_warning {
+  fill: var(--color-warning-700);
+
+}
+
+.icon_color_danger {
+  fill: var(--color-danger-700);
+
+}
+
+.icon_color_info {
+  fill: var(--color-info-700);
+
+}
+
+.icon_color_control {
+  fill: var(--color-basic-400);
+
+}

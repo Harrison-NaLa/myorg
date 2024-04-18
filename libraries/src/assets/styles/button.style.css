@@ -1,0 +1,58 @@
+@import url('./variables.css');
+
+.lib_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: 0;
+  /* for size */
+  border: none;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 13px;
+  height: 30px;
+  padding: 0 0.75rem;
+
+  &.status_primary {
+    color: var(--white);
+    background-color: var(--btn-primary-base);
+
+    &:hover {
+      background-color: var(--btn-primary-hover);
+    }
+
+  }
+
+  &.status_danger {
+    color: var(--white);
+    background-color: var(--btn-danger-base);
+
+    &:hover {
+      background-color: var(--btn-danger-hover);
+    }
+
+  }
+
+  &.status_info {
+    color: var(--white);
+    background-color: var(--btn-info-base);
+
+    &:hover {
+      background-color: var(--btn-info-hover);
+    }
+
+  }
+
+
+  &.status_warning {
+    color: var(--white);
+    background-color: var(--btn-warning-base);
+
+    &:hover {
+      background-color: var(--btn-warning-hover);
+    }
+
+  }
+
+}
