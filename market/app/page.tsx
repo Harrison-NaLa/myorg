@@ -7,8 +7,11 @@ export default function Index() {
       <header className="main_header flex flex-row justify-center">
         <Link className="header_item" href="./location">
           Ubicaión
-          </Link>
+        </Link>
       </header>
+      <span>
+        Aqui esta el home
+      </span>
     </div>
   );
 }
