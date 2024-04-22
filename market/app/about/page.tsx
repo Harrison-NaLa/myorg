@@ -1,5 +1,11 @@
-import Link from 'next/link';
+import Image from 'next/image';
+import pcLogo from '../../assets/logo-pccomponentes.svg';
 
 export default function About() {
-  return <div className="mapa">Welcome market 👋 aqui en ubicaion</div>;
+  return (
+    <div className="map">
+      Welcome market 👋 Estas en sobre nosotros
+      <Image src={pcLogo} height={120} width={400} alt="alternative" />
+    </div>
+  );
 }
