@@ -8,14 +8,17 @@ export default function Location() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome market 👋 aqui en ubicaion
-              <Link className="header_item" href="./about">
-              about
-              </Link>
+              <span>
+                Aqui esta el Location
+              </span>
             </h1>
           </div>
         </div>
       </div>
+      <Link className="header_item" href="./about">
+        about
+      </Link>
     </div>
+
   );
 }
