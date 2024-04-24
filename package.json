@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "sp": "npm run storybook"
+    "sp": "npm run storybook",
+    "store-demo": ""
   },
   "private": true,
   "devDependencies": {
